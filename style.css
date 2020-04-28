@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baskervville', serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #ace5ee;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff8e7;
+}
+
+#imgHeader {
+    width: 100%;
+    display: block;
+}
+
+
+
+nav {
+    overflow: hidden;
+}
+
+nav a {
+    width: 300px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: #6f4e37;
+    padding: 1%;
+    font-size: 25px;
+    font-family: 'Libre Caslon Display', serif;
+    transition: all 0.5s ease;
+    
+    
+}
+
+
+nav a:hover {
+    background-color: #ffa500;
+    font-size: 28px;
+    cursor: pointer;
+    text-shadow: -4px 2px 3px #111111;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    width: auto;
+    margin: 0 10%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid crimson;
+}
+
+@media(max-width:900px) {
+    nav a {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+.active {
+    background-color: #ffa500;
+    text-shadow: -1px 1px 2px #111111;
+}
+
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px
+}
+
+
+article h1 {
+
+    font-size: 30px;
+    text-align: center;
+    margin: 0 20% 20px 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
+img.mapa {
+    float: left;
+    margin-right: 10px;
+    width: 70%;
+    border-radius: 20% 20%;
+    transition: 1s;
+}
+
+img.mapa:hover{
+    width: 100%;    
+    cursor: pointer;
+}
+    
+
+
+
+img.edward {
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 30%;
+    border-radius: 0% 20%;
+}
+
+img.england {
+    float: left;
+    margin-right: 10px;
+    margin-top:20px;
+    width: 28%;
+    border-radius: 0% 20%;
+}
+
+
+
+img.sambellamy{
+    float: right;
+    margin-left: 10px;
+    margin-top: 55px;
+    width: 25%;
+    border-radius: 20% 0%;
+}
+img.whydah{
+    float: left;
+    margin-right: 550px;
+    width: 34%;
+    border-radius: 10% 10%;
+}
+img.rogers{
+    float: right;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50%;
+}
+img.selkirk{
+    float: left;
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 30%;
+}
+img.chatka{
+    float: right;
+    margin-left: 10px;
+    margin-top: 21px;
+    width: 40%;
+}
+img.ratunek{
+    float: left;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 40%;
+    }
+img.ratunek2{
+    float: right;
+    margin-left: 10px;
+    margin-top: 21px;
+    width: 40%;
+}
+img.wyspa{
+    float: right;
+    margin-left:10px;
+    margin-top: 6px;
+    width:50%;
+}
+
+article p {
+    
+    line height: 25px;
+    font-size: 16px;
+    padding-bottom: 15px
+}
+
+iframe {
+    width: 100%;
+
+}
+
+footer {
+    font-family: 'Source Serif Pro', ;
+    height: 60px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    
+    
+    
+    
+}
+footer a {
+    color: #ffa500;
+    text-decoration: none;
+}
+footer a:hover { color:brown}
